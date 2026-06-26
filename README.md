@@ -1,8 +1,6 @@
 # UNeXt
 
-Official Pytorch Code base for [UNeXt: MLP-based Rapid Medical Image Segmentation Network](https://arxiv.org/abs/2203.04967), MICCAI 2022
 
-[Paper](https://arxiv.org/abs/2203.04967) | [Project](https://jeya-maria-jose.github.io/UNext-web/)
 
 ## Introduction
 
@@ -85,9 +83,7 @@ python train.py --dataset <dataset name> --arch UNext --name <exp name> --img_ex
 python val.py --name <exp name>
 ```
 
-### Acknowledgements:
 
-This code-base uses certain code-blocks and helper functions from [UNet++](https://github.com/4uiiurz1/pytorch-nested-unet), [Segformer](https://github.com/NVlabs/SegFormer), and [AS-MLP](https://github.com/svip-lab/AS-MLP). Naming credits to [Poojan](https://scholar.google.co.in/citations?user=9dhBHuAAAAAJ&hl=en).
 
 ### Citation:
 ```
